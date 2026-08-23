@@ -121,6 +121,19 @@ Potential extensions include:
 - model explainability
 - real-time EMG classification
 
+## Reproducibility
+
+The notebooks in this repository document the preprocessing, feature extraction, model training, and evaluation stages of the project.
+
+The notebooks should be executed in numerical order.
+
+## Research Paper
+
+The associated research paper is available in the paper/ directory.
+
+## Disclaimer
+
+This project is a research prototype and is not intended for clinical diagnosis or medical decision-making.
 ## Repository Structure
 
 ```text
