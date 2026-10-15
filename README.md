@@ -99,12 +99,6 @@ The three classifiers were evaluated using accuracy and balanced accuracy.
 
 The Random Forest achieved the highest overall accuracy, while the SVM achieved the highest balanced accuracy among the evaluated models.
 
-##Key Findings
-
-- **Random Forest:** 96.67% accuracy; 92.83% balanced accuracy.
-- **Support Vector Machine (SVM):** 96.33% accuracy; 97.83% balanced accuracy.
-- **Decision Tree:** 89.33% accuracy; 87.61% balanced accuracy.
-
 The SVM achieved the highest balanced accuracy among the three models. However, these preliminary results should be interpreted cautiously because the labels were derived from RMS-based thresholds, and overlapping signal windows may introduce data leakage between training and testing sets.
 
 This project demonstrates a preliminary machine-learning workflow for analysing surface EMG features. It is not a clinically validated rehabilitation or diagnostic system.
@@ -153,10 +147,9 @@ This project is a research prototype and is not intended for clinical diagnosis 
 ## Repository Structure
 
 ```text
-## Repository Structure
 
 ```text
-intelligent-rehab-emg/
+EMG-Rehabilitation-System/
 ├── data/
 │   └── README.md
 ├── notebooks/
