@@ -137,19 +137,25 @@ This project is a research prototype and is not intended for clinical diagnosis 
 ## Repository Structure
 
 ```text
+## Repository Structure
+
+```text
 intelligent-rehab-emg/
-│
+├── data/
+│   └── README.md
 ├── notebooks/
-│   ├── 01_initial_preprocessing.ipynb
-│   ├── 02_vmo_vl_exploration.ipynb
-│   ├── 03_channel_analysis.ipynb
+│   ├── 01_initial_processing.ipynb
+│   ├── 02_VMO_VL_exploration.ipynb
+│   ├── 03_Channel_analysis.ipynb
 │   ├── 04_feature_extraction.ipynb
-│   ├── 05_random_forest.ipynb
-│   ├── 06_svm.ipynb
-│   └── 07_decision_tree.ipynb
-│
+│   ├── 05_svm.ipynb
+│   ├── 06_Random_Forest.ipynb
+│   └── 07_Decision_Tree.ipynb
 ├── paper/
 │   └── manuscript.pdf
+├── .gitignore
+├── README.md
+└── requirements.txt
 │
 ├── data/
 │   └── README.md
