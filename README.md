@@ -107,6 +107,8 @@ This project demonstrates a preliminary machine-learning workflow for analysing 
 These results are preliminary. The evaluation used a random window-level train/test split, and overlapping windows may share similar signal information across both sets. Furthermore, the activity labels were generated using an RMS-ratio threshold, so the models may partly learn the rule used to assign those labels.
 
 Consequently, these metrics should not be interpreted as evidence of generalisation to unseen participants or clinically validated muscle-imbalance detection.
+
+![Model Comparison](results/Model_Comparison.png)
  
 ## Class Imbalance
 
