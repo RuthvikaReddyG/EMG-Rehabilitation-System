@@ -94,10 +94,19 @@ The three classifiers were evaluated using accuracy and balanced accuracy.
 
 The Random Forest achieved the highest overall accuracy, while the SVM achieved the highest balanced accuracy among the evaluated models.
 
+##Key Findings
+
+- **Random Forest:** 96.67% accuracy; 92.83% balanced accuracy.
+- **Support Vector Machine (SVM):** 96.33% accuracy; 97.83% balanced accuracy.
+- **Decision Tree:** 89.33% accuracy; 87.61% balanced accuracy.
+
+The SVM achieved the highest balanced accuracy among the three models. However, these preliminary results should be interpreted cautiously because the labels were derived from RMS-based thresholds, and overlapping signal windows may introduce data leakage between training and testing sets.
+
+This project demonstrates a preliminary machine-learning workflow for analysing surface EMG features. It is not a clinically validated rehabilitation or diagnostic system.
+
 These results are preliminary. The evaluation used a random window-level train/test split, and overlapping windows may share similar signal information across both sets. Furthermore, the activity labels were generated using an RMS-ratio threshold, so the models may partly learn the rule used to assign those labels.
 
 Consequently, these metrics should not be interpreted as evidence of generalisation to unseen participants or clinically validated muscle-imbalance detection.
-![Random Forest Confusion Matrix](results/random_forest_confusion_matrix.png)
  
 ## Class Imbalance
 
@@ -105,15 +114,14 @@ The dataset contains substantially more VL-dominant observations than VMO-domina
 
 Because of this imbalance, accuracy alone does not provide a complete assessment of model performance. Balanced accuracy and class-specific metrics were therefore also considered.
 
-## Limitations
+## Limitations and Future Improvements
 
-Several limitations should be considered when interpreting the results.
+- **Label generation:** The classification labels were derived using RMS-based thresholds, so the models may learn the rules used to create the labels rather than independent patterns of muscle activity.
+- **Potential data leakage:** Overlapping signal windows may create similarities between training and testing samples, potentially inflating performance estimates.
+- **Dataset limitations:** The processed dataset does not retain participant-level identifiers, preventing participant-independent evaluation.
+- **Future work:** Evaluate models using participant-independent splits, investigate alternative feature sets, and validate the approach on additional EMG recordings.
 
-- The dataset is substantially class-imbalanced.
-- The current evaluation uses a window-level train/test split.
-- Related windows may therefore originate from the same underlying recording.
-- The analysis is based on a single dataset.
-- A single train/test split does not fully characterize performance variability.
+The current results are preliminary and do not establish clinical effectiveness.
 
 ## Future Work
 
