@@ -1,24 +1,16 @@
-# Data
+# Dataset
 
-This project uses a publicly available surface electromyography
-dataset released by Mohr through Mendeley Data in 2018.
+This project uses a publicly available surface electromyography (sEMG) dataset recorded during squatting.
 
-The dataset contains two-channel EMG recordings associated
-with squatting.
+**Original dataset:** [Data for: Intermuscular Coherence between Surface EMG Signals recorded with Monopolar and Bipolar EMG Systems during Squatting](https://data.mendeley.com/datasets/37wyv32y8j/1)
 
-No new human-subject data were collected for this project.
+**Citation:** Mohr et al. (2018). *Data for: Intermuscular Coherence between Surface EMG Signals recorded with Monopolar and Bipolar EMG Systems during Squatting*. Mendeley Data. https://doi.org/10.17632/37wyv32y8j.1
 
-The dataset was processed into 998 window-level observations:
-- 157 VMO-dominant
-- 841 VL-dominant
+**License:** CC BY 4.0, as listed for the dataset.
 
-The processed dataset used for model development is described
-in the project notebooks.
+The original dataset is hosted by Mendeley Data and is not stored in this repository. Download it from the source above and follow the project notebooks for the processing workflow.
 
-Source:
-[https://data.mendeley.com/datasets/37wyv32y8j/1]
-
-
+**Scientific note:** The original dataset describes vastus medialis (VM) and vastus lateralis (VL) recordings. The mapping of channels to VMO/VL terminology in this project should be interpreted in light of the available acquisition metadata and the limitations documented in the manuscript.
 ## Dataset Structure
 
 The analysis uses two EMG channels corresponding to the muscles investigated in the study.
