@@ -14,6 +14,11 @@ The project processes two-channel EMG signals, extracts temporal, amplitude, and
 
 How effectively can machine-learning models classify VMO- and VL-dominant muscle activation patterns from surface electromyography (EMG) features during squatting, and which evaluated model achieves the highest classification performance?
 
+## Research Paper
+
+The associated research paper is available in the paper/ directory.
+
+
 ## Project Pipeline
 
 Raw EMG data  
@@ -141,10 +146,6 @@ Potential extensions include:
 The notebooks in this repository document the preprocessing, feature extraction, model training, and evaluation stages of the project.
 
 The notebooks should be executed in numerical order.
-
-## Research Paper
-
-The associated research paper is available in the paper/ directory.
 
 ## Disclaimer
 
