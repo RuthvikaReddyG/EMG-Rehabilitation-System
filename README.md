@@ -98,7 +98,7 @@ These results are preliminary. The evaluation used a random window-level train/t
 
 Consequently, these metrics should not be interpreted as evidence of generalisation to unseen participants or clinically validated muscle-imbalance detection.
 
-Random Forest Confusion Matrix : results/random_forest_confusion_matrix
+Random Forest Confusion Matrix : results/random_forest_confusion_matrix.png
 
 ## Class Imbalance
 
