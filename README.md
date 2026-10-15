@@ -168,11 +168,14 @@ intelligent-rehab-emg/
 │   └── 07_Decision_Tree.ipynb
 ├── paper/
 │   └── manuscript.pdf
+│
+└── results/
+│   └── Model_Comparison.png
+│   └── README.md
+│   └── decision_tree_confusion_matrix.png
+│   └── random_forest_confusion_matrix.png
+│   └── svm_confusion_matrix.png
 ├── .gitignore
 ├── README.md
 └── requirements.txt
-│
-├── data/
-│   └── README.md
-│
-└── results/
+
