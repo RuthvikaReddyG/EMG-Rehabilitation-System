@@ -97,8 +97,6 @@ The Random Forest achieved the highest overall accuracy, while the SVM achieved 
 These results are preliminary. The evaluation used a random window-level train/test split, and overlapping windows may share similar signal information across both sets. Furthermore, the activity labels were generated using an RMS-ratio threshold, so the models may partly learn the rule used to assign those labels.
 
 Consequently, these metrics should not be interpreted as evidence of generalisation to unseen participants or clinically validated muscle-imbalance detection.
-
-Random Forest Confusion Matrix 
 ![Random Forest Confusion Matrix](results/random_forest_confusion_matrix.png)
  
 ## Class Imbalance
