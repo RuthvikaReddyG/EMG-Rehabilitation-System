@@ -98,8 +98,9 @@ These results are preliminary. The evaluation used a random window-level train/t
 
 Consequently, these metrics should not be interpreted as evidence of generalisation to unseen participants or clinically validated muscle-imbalance detection.
 
-Random Forest Confusion Matrix : results/random_forest_confusion_matrix.png
-
+Random Forest Confusion Matrix 
+![Random Forest Confusion Matrix](results/random_forest_confusion_matrix.png)
+ 
 ## Class Imbalance
 
 The dataset contains substantially more VL-dominant observations than VMO-dominant observations.
