@@ -84,15 +84,19 @@ A single decision-tree classifier was evaluated as a comparatively interpretable
 
 ## Results
 
-The three models were evaluated using accuracy, balanced accuracy, precision, recall, F1-score, and confusion matrices.
+The three classifiers were evaluated using accuracy and balanced accuracy.
 
 | Model | Accuracy | Balanced Accuracy |
 |---|---:|---:|
 | Random Forest | 96.67% | 92.83% |
-| SVM | 96.33% | 97.83% |
+| Support Vector Machine (SVM) | 96.33% | 97.83% |
 | Decision Tree | 89.33% | 87.61% |
 
-Although Random Forest achieved the highest overall accuracy, SVM achieved the highest balanced accuracy and the strongest recall for the minority VMO-dominant class.
+The Random Forest achieved the highest overall accuracy, while the SVM achieved the highest balanced accuracy among the evaluated models.
+
+These results are preliminary. The evaluation used a random window-level train/test split, and overlapping windows may share similar signal information across both sets. Furthermore, the activity labels were generated using an RMS-ratio threshold, so the models may partly learn the rule used to assign those labels.
+
+Consequently, these metrics should not be interpreted as evidence of generalisation to unseen participants or clinically validated muscle-imbalance detection.
 
 ## Class Imbalance
 
